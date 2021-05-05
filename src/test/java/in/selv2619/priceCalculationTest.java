@@ -4,17 +4,20 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class priceCalculationTest {
+public class PriceCalculationTest {
 
+	/*
+	 * This method is used to calculate the price of the selected breed with count
+	 */
+	
 	@Test
-	public void test() {
+	public void PriceCalculationTest() 
+	{
 		
+		BreedTypes.addBreedType();		
+		double amount=PriceCalculation.breedPriceCalculation(2, "Shitzu");
+		assertEquals(74900.00,amount,0.001);
 		
-		double price=2*35000;
-		double gst=(price*7)/100;
-		double priceWithGst=price+gst;
-		double amount=priceCalculation.breedPriceCalculation(2, 35000);
-		assertSame(amount,priceWithGst);
 	}
 
 }

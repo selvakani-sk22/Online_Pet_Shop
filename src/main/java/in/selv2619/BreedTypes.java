@@ -10,15 +10,15 @@ import java.util.Set;
  * @author selv2619
  *
  */
-public class breedTypes {
+public class BreedTypes {
 	
-	/*
+	/**
 	 * Hash Map to store breed type with its price
 	 */
 	
 	static HashMap<String, Integer> breedType = new HashMap<String,Integer>();
 	
-	/*
+	/**
 	 * Set the breed count initially
 	 */
 	
@@ -30,7 +30,7 @@ public class breedTypes {
 	static int breedGermanSepherdCount=8;
 	
 	
-	/*
+	/**
 	 * Method to add Breed Types in list
 	 */
 	
@@ -46,7 +46,7 @@ public class breedTypes {
 		
 	}
 	
-	/*
+	/**
 	 * Method to display all available breed types
 	 */
 	
@@ -64,8 +64,10 @@ public class breedTypes {
 	}
 	
 	
-	/*
+	/**
 	 * Method to get the breed Price for single dog
+	 * @param userSelectedBreedType
+	 * @return
 	 */
 	
 	
@@ -76,8 +78,11 @@ public class breedTypes {
 	}
 	
 	
-	/*
+	/**
 	 * Method to get the selected breed status(available/not)
+	 * @param userSelectedBreedType
+	 * @param breedCount
+	 * @return
 	 */
 	
 	
@@ -161,7 +166,7 @@ public class breedTypes {
 	}
 		
 	
-	/*
+	/**
 	 * Method to display available breed counts after placing order
 	 */
 	
