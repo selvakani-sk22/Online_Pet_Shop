@@ -9,8 +9,9 @@ public class DisplayAllUserTest {
 		/**
 		 * To add with valid mail and password and Display
 		 */
+	
 		@Test
-		public void ValidUserEmailAndPassword() {
+		public void validUserEmailAndPassword() {
 			
 			String email="selv2619@gmail.com";
 			String Password="selv2625";
@@ -18,11 +19,13 @@ public class DisplayAllUserTest {
 			UserDetails.displayAllUsers();
 		}
 		
+		
 		/**
 		 * To add with invalid mail and password and display
 		 */
+		
 		@Test
-		public void InvalidUserEmailAndValidPassword() {
+		public void invalidUserEmailAndValidPassword() {
 			
 			String email="@selv2619.gmail.com";
 			String Password="selv2625";
@@ -33,8 +36,9 @@ public class DisplayAllUserTest {
 		/**
 		 * To add with invalid mail and password and display
 		 */
+		
 		@Test
-		public void ValidUserEmailAndInValidPassword() {
+		public void validUserEmailAndInValidPassword() {
 			
 			String email="selv2619@gmail.com";
 			String Password="selv2";

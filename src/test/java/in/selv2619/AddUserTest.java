@@ -10,7 +10,7 @@ public class AddUserTest {
 	 * To check valid mail and password
 	 */
 	@Test
-	public void ValidUserEmail() {
+	public void validUserEmail() {
 		
 		String email="selv2619@gmail.com";
 		String Password="selv2625";
@@ -24,7 +24,7 @@ public class AddUserTest {
 	 */
 	@Test
 	
-	public void InValidUserEmail() {
+	public void inValidUserEmail() {
 		
 		String email="@selv2619.gmail.com";
 		String Password="selv2625";
@@ -39,7 +39,7 @@ public class AddUserTest {
 	
 	@Test
 		
-		public void InValidPassword() {
+		public void inValidPassword() {
 			
 			String email="selv2619@gmail.com";
 			String Password="selv2";

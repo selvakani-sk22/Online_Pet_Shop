@@ -12,20 +12,20 @@ public class EmailValidationTest {
 	
 	@Test
 	
-	public void ValidEmail() {
+	public void validEmail() {
 		
 		String email="selvakanisk22@gmail.com";
 		boolean result=EmailValidation.isEmailValid(email);
 		assertTrue(result);
 	}
 
-	/*
+	/**
 	 * This Method is used to check the Invalid Email
 	 */
 	
 	@Test
 		
-		public void InValidEmail() {
+		public void inValidEmail() {
 			
 			String email="@selvakanisk22.gmail.com";
 			boolean result=EmailValidation.isEmailValid(email);

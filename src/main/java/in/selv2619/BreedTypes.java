@@ -90,7 +90,9 @@ public class BreedTypes {
 	{
 		String breedCountStatus="notAvailable";
 		
-		 // For BreedType Pug
+		 /**
+		  *  For BreedType Pug
+		  */
 		
 		if(userSelectedBreedType.equalsIgnoreCase("pug"))              
 		{
@@ -101,7 +103,9 @@ public class BreedTypes {
 			}
 		}
 		
-		// For Breed Type Shitzu
+		/*8
+		 *  For Breed Type Shitzu
+		 */
 		
 		if(userSelectedBreedType.equalsIgnoreCase("shitzu"))              
 		{
@@ -113,7 +117,9 @@ public class BreedTypes {
 			}
 		}
 		
-		//For Breed Type Doberman
+		/**
+		 * For Breed Type Doberman
+		 */
 		
 		if(userSelectedBreedType.equalsIgnoreCase("doBerMaN"))            
 		{
@@ -125,7 +131,9 @@ public class BreedTypes {
 			}
 		}
 		
-		//For Breed Type Pomerian
+		/**
+		 * For Breed Type Pomerian
+		 */
 		
 		if(userSelectedBreedType.equalsIgnoreCase("PomerIan"))          
 		{
@@ -137,7 +145,9 @@ public class BreedTypes {
 			}
 		}
 		
-		//For Breed Type Golden Retriever
+		/**
+		 * For Breed Type Golden Retriever
+		 */
 		
 		if(userSelectedBreedType.equalsIgnoreCase("goLDen RetriEVeR"))         
 		{
@@ -150,7 +160,9 @@ public class BreedTypes {
 		}
 		
 		
-		//For Breed Type German Sepherd
+		/**
+		 * For Breed Type German Sepherd
+		 */
 		
 		if(userSelectedBreedType.equalsIgnoreCase("gErMAn sepHErD"))         
 		{

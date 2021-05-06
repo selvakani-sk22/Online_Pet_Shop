@@ -6,13 +6,13 @@ import org.junit.Test;
 
 public class SearchDetailsTest {
 
-	/*
+	/**
 	 * To add and search a particular mail and password present in the list
 	 */
 	
 	@Test
 	
-	public void SearchValidMailAndPassword()
+	public void searchValidMailAndPassword()
 	{
 		
 		String email="selvakanisk22@gmail.com";
@@ -23,13 +23,13 @@ public class SearchDetailsTest {
 		
 	}
 	
-	/*
+	/**
 	 * To Search a Mail and Password without adding to list
 	 */
 	
 	@Test
 		
-		public void SearchInValidMailAndPassword()
+		public void searchInValidMailAndPassword()
 		{
 			
 			String email="selvakanisk@gmail.com";

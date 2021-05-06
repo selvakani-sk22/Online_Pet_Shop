@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class BreedCountStatusTest {
 
-	/*
+	/**
 	 * Test with available breed count
 	 */
 	
@@ -20,7 +20,7 @@ public class BreedCountStatusTest {
 
 	}
 	
-	/*
+	/**
 	 * Test with unavailable breed count
 	 */
 	

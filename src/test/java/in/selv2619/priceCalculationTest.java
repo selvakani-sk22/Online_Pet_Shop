@@ -6,12 +6,12 @@ import org.junit.Test;
 
 public class PriceCalculationTest {
 
-	/*
+	/**
 	 * This method is used to calculate the price of the selected breed with count
 	 */
 	
 	@Test
-	public void PriceCalculationTest() 
+	public void priceCalculationTest() 
 	{
 		
 		BreedTypes.addBreedType();		

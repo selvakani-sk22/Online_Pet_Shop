@@ -10,7 +10,7 @@ package in.selv2619;
 public class UserLoginValidation {
 	
 	/**
-	 * Metho to check given mail and password is valid or not for login
+	 * Method to check given mail and password is valid or not for login
 	 * @param email
 	 * @param passWord
 	 * @return
